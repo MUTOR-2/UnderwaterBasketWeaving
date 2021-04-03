@@ -11,17 +11,21 @@ Let's say we want to create a course called
 We would start by making a new, empty repository on GitHub:
 [https://github.com/organizations/MUTOR-2/repositories/new](https://github.com/organizations/MUTOR-2/repositories/new).
 
+You will see a screen like this: 
+
 ![](assets/images/gh_create_repo.png)
 
-Be sure to NOT include a README, license or .gitignore--those will be provided
+Make your repo Public, not Private, and be sure to NOT include a README, 
+license or .gitignore--those will be provided
 by this Template.
 
-Ignore GitHub's post-creation instructions:
+Click `Create repository`, and ignore GitHub's post-creation instructions:
 
 ![](assets/images/gh_post_creation.png)
 
-The following instructions use the commandline to set up your repo. If using
-the GitHub Desktop client, they should be similar.
+The following instructions use the commandline to set up your repo. (It may
+be possible to do this with the Desktop client, but probably easier to
+use the terminal...)
 
 Make a new empty directory for the class, and initialize it as an empty
 git repo:
