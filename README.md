@@ -6,6 +6,8 @@ In order to set up a new MUTOR course, you will begin with
 a copy, not a clone, of this repository. There are a number of ways to
 do this--the following steps will take you through one of them.
 
+### Create an empty repository on GitHub
+
 Let's say we want to create a course called 
 [Underwater Basket Weaving](https://en.wikipedia.org/wiki/Underwater_basket_weaving).
 We would start by making a new, empty repository on GitHub:
@@ -27,6 +29,8 @@ The following instructions use the commandline to set up your repo. (It may
 be possible to do this with the Desktop client, but probably easier to
 use the terminal...)
 
+### Create a copy of this MUTOR Template repository
+
 Make a new empty directory for the class, and initialize it as an empty
 git repo:
 
@@ -40,6 +44,12 @@ does not set the remote origin.
 
     $ git pull https://github.com/mutor-2/Template
     
+Now pull the submodules:
+
+    $ git submodule update --init --recursive
+    
+### Link your local repo to GitHub
+
 Now we set the remote origin to point to the GitHub repo we created above,
 and set the branch to `main`:
 
